@@ -9,6 +9,7 @@ import {
 import NavBar from "../Components/NavBar.component";
 import StatsAndReport from "../Layouts/StatsAndReport.layout";
 import SalesReportCard from "../Components/SalesReporCard.Component";
+import Calendar from "../Components/Calendar.component";
 
 const MainContainer = styled.div`
   margin: 20px 20px;
@@ -94,6 +95,7 @@ const Home = (props) => {
                 charttwo={charttwo}
                 chartThree={chartThree}
               />
+              <Calendar />
             </div>
           </div>
         </div>

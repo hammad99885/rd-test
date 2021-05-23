@@ -3,8 +3,12 @@ import { Line } from "react-chartjs-2";
 const LineChart = ({ color, height, labels, data, width }) => {
   const options = {
     legend: { display: "none" },
+    tooltip: { display: "none" },
     plugins: {
       legend: {
+        display: false,
+      },
+      tooltip: {
         display: false,
       },
     },
